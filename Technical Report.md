@@ -38,4 +38,9 @@ The final table is described as below :
 |summary|No update|Dropped from dataset|
 |city|location|Changed Header name; updated location with appropriate states|
 
-The next dataset we transformed was the SA4 Time Series. This dataset contained data from 1978 up to 2020. 
+The next dataset we transformed was the SA4 Time Series. This dataset contained data from 1978 up to 2020. We dropped all the data except for October 2019. The following is the final format the data is presented. 
+
+| State | Unemployment Rate| Employment Rate|Participation Rate|
+| :-------------: |:-------------:| :-------------:|
+| varchar(3) | float| float|float|
+
