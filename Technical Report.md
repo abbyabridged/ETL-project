@@ -60,6 +60,13 @@ The next dataset we transformed was the SA4 Time Series. This dataset contained 
 | :-------------: |:-------------:| :-------------:| :-------------:|
 | varchar(3) | float| float| float|
 
+Based on these tables, we establised the relationships and primary keys for the schema. Our schema is displayed in QuickDBD-ETL Homework. For each table, we assigned the appropriate primary key. The following shows these : 
+
+| Table | Primary Key|
+| :-------------: |:-------------:|
+| organisation_information | organisation|
+| job_information | id|
+| labour_market_information | state|
 
 ### Load ###
 
