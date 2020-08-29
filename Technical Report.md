@@ -19,6 +19,14 @@ Our final dataset is "20200601-asx200". This dataset was downloaded from www.asx
 
 Based on the dataset we have extracted, we reviewed and assessed this for the purposes of our task. We identified how the relationship between the three datasets will work. We also identified parts of the dataset that are redundant for our task. We also examined the validity and completeness of the dataset. 
 
-For "datascientist_jobs_in_australia_Oct_25_2019", 
+For "datascientist_jobs_in_australia_Oct_25_2019", we set the index. We then identified the duplicate rows and removed the duplicated. We kept the first row of the duplicated rows. 
+
+We observed that companies without a Company Profile in indeed.com.au did not have a valid link. In this instance, these columns were populated with n/a. We replaced this with "Not Available". 
+
+Some companies did not have ratings too. These could be due to the lack of a Company Profile or a very new company advertising with indeed.com.au. In this instance, these ratings were updated with "No Rating". 
+
+For column that showed how long ago the job was posted, we found this to have very little value to our task. Hence, we dropped this column from our use. 
+
+For 
 
 
