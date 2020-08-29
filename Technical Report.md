@@ -32,7 +32,7 @@ For location, we found some instances where the city was not provided or the sta
 The final table is described as below : 
 
 | Original Column | Updated Column| Description of updates|
-| ------------- |:-------------:| -----:|
+| :-------------: |:-------------:| :-------------:|
 |Title|Job Posting title|Changed Header name|
 |Company|Organisation|Changed Header name|
 |cpage|Indeed Profile Page|Changed Header name; replaced "N/A" where applicable|
