@@ -27,6 +27,15 @@ Some companies did not have ratings too. These could be due to the lack of a Com
 
 For column that showed how long ago the job was posted, we found this to have very little value to our task. Hence, we dropped this column from our use. 
 
-For 
+For location, we found some instances where the city was not provided or the state was stipulated in the city column. Where the city data was not available, we replaced this with "N/A". We also replaced the long-form of the state with its appropriate three letter acronym. 
 
+The final table is described as below : 
 
+| Original Column | Updated Column| Description of updates|
+| ------------- |:-------------:| -----:|
+|Title|Job Posting title|Changed Header name|
+|Company|Organisation|Changed Header name|
+|cpage|Indeed Profile Page|Changed Header name; replaced "N/A" where applicable|
+|ratings|Indeed Ratings|Changed Header name; replaced "No rating" where applicable|
+|summary|No update|Dropped from dataset|
+|city|location|Changed Header name; updated location with appropriate states|
