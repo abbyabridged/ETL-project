@@ -17,6 +17,8 @@ Our final dataset is "20200601-asx200". This dataset was downloaded from www.asx
 
 ### TRANSFORM ###
 
+Based on the dataset we have extracted, we reviewed and assessed this for the purposes of our task. We identified how the relationship between the three datasets will work. We also identified parts of the dataset that are redundant for our task. We also examined the validity and completeness of the dataset. 
 
+For "datascientist_jobs_in_australia_Oct_25_2019", 
 
 
