@@ -19,6 +19,8 @@ Based on the dataset we have extracted, we reviewed and assessed this for the pu
 
 For "datascientist_jobs_in_australia_Oct_25_2019", we set the index. We then identified the duplicate rows and removed the duplicated. We kept the first row of the duplicated rows. 
 
+Due to the amount of data within this dataset, we decided to split the dataset into two tables. One table is about the job posted while the other table is about the organisation that posted the job. 
+
 We observed that companies without a Company Profile in indeed.com.au did not have a valid link. In this instance, these columns were populated with n/a. We replaced this with "Not Available". 
 
 Some companies did not have ratings too. These could be due to the lack of a Company Profile or a very new company advertising with indeed.com.au. In this instance, these ratings were updated with "No Rating". 
@@ -44,3 +46,8 @@ The next dataset we transformed was the SA4 Time Series. This dataset contained 
 | :-------------: |:-------------:| :-------------:| :-------------:|
 | varchar(3) | float| float| float|
 
+
+
+### Load ###
+
+The final stage of this task is to load. We decided that the most effective method to load and use this data is using PostgresQL. We 
