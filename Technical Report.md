@@ -29,7 +29,7 @@ For column that showed how long ago the job was posted, we found this to have ve
 
 For location, we found some instances where the city was not provided or the state was stipulated in the city column. Where the city data was not available, we replaced this with "N/A". We also replaced the long-form of the state with its appropriate three letter acronym. 
 
-The final table is described as below : 
+The summary table below shows the key updates : 
 
 | Original Column | Updated Column| Description of updates|
 | :-------------: |:-------------:| :-------------:|
@@ -40,12 +40,25 @@ The final table is described as below :
 |summary|No update|Dropped from dataset|
 |city|location|Changed Header name; updated location with appropriate states|
 
+The first table is described as below : 
+
+| id | Job Posting Title| Organisation|Location| State|
+| :-------------: |:-------------:| :-------------:|:-------------:| :-------------:|
+| int | varchar| varchar|varchar| varchar(3)|
+
+The second table is desribed as follows : 
+
+
+| id | Organisation| Indeed Profile Page|Indeed Rating|
+| :-------------: |:-------------:| :-------------:|:-------------:| 
+| int | varchar| varchar|varchar| float|
+
+
 The next dataset we transformed was the SA4 Time Series. This dataset contained data from 1978 up to 2020. We dropped all the data except for October 2019. The following is the final format the data is presented. 
 
 | State | Unemployment Rate| Employment Rate| Participation Rate|
 | :-------------: |:-------------:| :-------------:| :-------------:|
 | varchar(3) | float| float| float|
-
 
 
 ### Load ###
