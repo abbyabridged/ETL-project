@@ -70,4 +70,4 @@ Based on these tables, we establised the relationships and primary keys for the 
 
 ### Load ###
 
-The final stage of this task is to load. We decided that the most effective method to load and use this data is using PostgreSQL. We created the tables based on the schema we have developed. Using Pandas and sqlalchemy, we then loaded our dataframes into PostgreSQL. The data is now ready for use by any data analyst. 
+The final stage of this task is to load. We decided that the most effective method to load and use this data is using PostgreSQL. We created the tables based on the schema we have developed. Using Pandas and sqlalchemy, we then established our connection and loaded our dataframes into PostgreSQL. The data is now ready for use by any data analyst. 
